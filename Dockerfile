@@ -2,7 +2,7 @@ FROM  lsiobase/alpine:3.18
 LABEL maintainer="BlueT - Matthew Lien - 練喆明 <bluet@bluet.org>"
 
 # Docker defaults
-ENV        CRONICLE_VERSION 0.9.39
+ENV        CRONICLE_VERSION 0.9.40
 ENV        CRONICLE_base_app_url 'http://localhost:3012'
 ENV        CRONICLE_WebServer__http_port 3012
 ENV        CRONICLE_WebServer__https_port 443
